@@ -65,6 +65,18 @@
                 </div>
             </div>
         </div>
+        <div class="feedback">
+            <div class="feedback_title">
+                <p>Обратная связь</p>
+            </div>
+        
+            <form class="feedback_form" action="/submit_feedback" method="post">
+                <input class="feedback_text" type="text" id="name" name="name" placeholder="Ваше имя" required>
+                <input class="feedback_email" type="email" id="email" name="email" placeholder="Ваш email" required>
+                <textarea id="message" name="message" placeholder="Ваше сообщение" required></textarea>
+                <input class="feedback_button" type="submit" value="Отправить">
+            </form>
+        </div>
         <div class="footer">
             <div class="left_side_bottom">
             <ul>
